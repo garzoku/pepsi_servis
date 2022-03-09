@@ -13,8 +13,9 @@ header ul {
     list-style: none;
 }
 
-li +li {
-    margin-left: 24px;
+header>nav>ul>li {
+    margin-left: 12px;
+    margin-right: 12px;
 }
 
 button {
@@ -24,8 +25,7 @@ button {
     padding: 16px;
     font-weight: 700;
     border-radius: 3px;
-    margin-right: 2em;
-    
+    margin-right: 2em;  
 }
 
 a {
@@ -41,12 +41,24 @@ h1 {
 footer {
     bottom: 0;
     position: fixed;
+    width: 100%;
 }
 
-footer ul {
+ul {
     list-style: none;
-    width: 100%;
+}
 
+main {
+    display:flex;
+}
+
+aside { 
+    margin: 0 auto;
+    margin-block-start: 4em;
+}
+
+.columns {
+    display: flex;
 }
 
 .rows {
