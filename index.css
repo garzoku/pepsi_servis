@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+
+* {
+    font-family: 'Archivo', sans-serif;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -38,12 +44,6 @@ h1 {
     margin-left: 2em;
 }
 
-footer {
-    bottom: 0;
-    position: fixed;
-    width: 100%;
-}
-
 ul {
     list-style: none;
 }
@@ -52,9 +52,24 @@ main {
     display:flex;
 }
 
-aside { 
+#pitch {
     margin: 0 auto;
     margin-block-start: 4em;
+    float:right;
+    width:25%;
+}
+
+#highlight_box { 
+    margin: 0 auto;
+    margin-block-start: 4em;
+    float:right;
+    width:25%;
+}
+
+#testimonial {
+    margin-block-start: 4em;
+    text-align: center;
+
 }
 
 .columns {
@@ -64,7 +79,6 @@ aside {
 .rows {
     display: flex;
     flex-flow: row nowrap;
-
 }
 .grid {
     flex-direction: column;
